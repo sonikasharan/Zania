@@ -1,46 +1,103 @@
-# Getting Started with Create React App
+# **Card Management**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Card Management Application built using React. It fetches data from the testData using Service Worker and display it in cards.It is fully responsive.Cards can be opened in bigger View Template and can be drag droped
 
-## Available Scripts
+## **Technologies Used**
 
-In the project directory, you can run:
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind**: A CSS library for css classes.
 
-### `npm start`
+## **Getting Started**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### **Prerequisites**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Make sure you have the following installed on your system:
 
-### `npm test`
+- Node.js (v14.x or higher)
+- npm (v6.x or higher) or yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Installation**
 
-### `npm run build`
+**Clone the repository**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+`https://github.com/<userName>/Zania.git`
+`cd factWise`
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Install dependencies**: If you are using npm:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+`npm install`
+```
 
-### `npm run eject`
+Or if you are using yarn:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+`yarn install`
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### **Running the Application**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To start the development server, run:
 
-## Learn More
+```bash
+`npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Or if using yarn:
+
+```bash
+`yarn start`
+```
+
+The application will be available at `http://localhost:3000`.
+
+### **Folder Structure**
+
+plaintext  
+`├── public`  
+`│   ├── index.html`  
+`│   └── assets`  
+`|   └── testData`  
+`├── src`  
+`│   ├── components`  
+`│   │   ├── pages`  
+`│   │   ├── shared`  
+`│   │   └── ...`  
+`│   ├── App.js`  
+`│   ├── index.js`  
+`│   └── ...`  
+`├── package.json`  
+`└── README.md`
+
+- **src/components**: Contains the React components for the application.
+- **src/pages**: Contains the React pages for the application.
+- **public**: Public assets,testdata and the main `index.html` file.
+
+### **Customization**
+
+You can customize the application by modifying the components in the `src/components` directory.
+
+### **Deployment**
+
+To build the application for production, run:
+
+```bash
+`npm run build`
+```
+
+Or if using yarn:
+
+```bash
+`yarn build`
+```
+
+The build files will be generated in the `build/` directory. You can then deploy these files to your preferred hosting service.
+
+## **License**
+
+This project is open-source and available under the MIT License.
