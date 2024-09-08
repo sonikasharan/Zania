@@ -1,6 +1,6 @@
 # **Card Management**
 
-This project is a Card Management Application built using React. It fetches data from the testData using Service Worker and display it in cards.It is fully responsive.Cards can be opened in bigger View Template and can be drag droped
+This project is a Card Management Application built using React. It fetches data from the testData using Service Worker and display it in cards.It is fully responsive.Cards can be opened in bigger view template and can be drag droped
 
 ## **Technologies Used**
 
@@ -62,7 +62,6 @@ plaintext
 `├── public`  
 `│   ├── index.html`  
 `│   └── assets`  
-`|   └── testData`  
 `├── src`  
 `│   ├── components`  
 `│   │   ├── pages`  
@@ -76,7 +75,7 @@ plaintext
 
 - **src/components**: Contains the React components for the application.
 - **src/pages**: Contains the React pages for the application.
-- **public**: Public assets,testdata and the main `index.html` file.
+- **public**: Public contains assets and the main `index.html` file.
 
 ### **Customization**
 
